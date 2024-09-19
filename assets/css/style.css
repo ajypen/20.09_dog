@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a, li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.conteiner {
+  max-width: 1020px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.main {
+  background-image: url(../img/main-bg.png);
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+.main__title {
+  color: #fff;
+  margin-top: 128px;
+  font-size: 56px;
+  font-family: "Roboto", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
+.main__button {
+  border-radius: 8px;
+  background-color: #F2726F;
+  margin-top: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-style: normal;
+  max-width: 210px;
+}
+
+.header__wrapper {
+  display: flex;
+}
+.header__menu {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  gap: 37px;
+  padding: 21px 0 21px 40px;
+  margin-top: 27px;
+  align-items: center;
+}
+.header__link {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+.header__title {
+  display: flex;
+}
+.header__icon {
+  gap: 22px;
+}
+
+.make-an-appointment {
+  display: flex;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+.make-an-appointment__button {
+  border-radius: 8px;
+  background-color: #F2726F;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
+
+.boarding-hours {
+  display: flex;
+}
+.boarding-hours__text {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.logo {
+  margin-right: 236px;
+}
+
+.icon-time {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.icon-phone {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.call-us {
+  display: flex;
+}
+.call-us__text {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-right: 30px;
+}
+
+.about__conteiner {
+  max-width: 846px;
+  margin-top: -260px;
+}
+.about__wrap {
+  height: 700px;
+  background-color: #5D62B5;
+  border-radius: 40px;
+  margin-top: -80px;
+}
+.about__blod {
+  position: absolute;
+  bottom: -160px;
+}
+.about__dots {
+  position: absolute;
+  right: 300px;
+  top: -110px;
+}
+.about__dog {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 40px;
+  bottom: -120px;
+  z-index: 2;
+}
+.about__epigraph {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+.about__title {
+  font-family: "Roboto", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  font-style: 36px;
+  color: #fff;
+}
+.about__text {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+}
+
+.val-prop {
+  margin-top: 230px;
+}
+.val-prop__epigraph {
+  color: #5D62B5;
+  display: flex;
+  align-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+}
+.val-prop__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+  margin-top: 33px;
+  margin-bottom: 68px;
+}
+.val-prop__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.val-prop__block {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+.val-prop__advantage {
+  max-width: 324px;
+  display: flex;
+  align-items: start;
+  gap: 23px;
+}
+.val-prop__advantage-textblock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.val-prop__advantage-title {
+  color: #F2726F;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.val-prop__advantage-text {
+  color: #4B4B4B;
+  letter-spacing: 0.15px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+}
+.val-prop__advantage-block {
+  max-width: 235px;
+  max-height: 99px;
+}
+
+.appointment {
+  margin-top: 122px;
+  position: relative;
+}
+.appointment__wrapper {
+  background-color: #29C3BE;
+  padding-right: 25vw;
+  display: flex;
+  justify-content: end;
+}
+.appointment__block {
+  max-width: 411px;
+  margin-top: 112px;
+  z-index: 2;
+}
+.appointment__title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 42px;
+}
+.appointment__ball {
+  position: absolute;
+  right: 50px;
+  top: 128px;
+}
+.appointment__dog {
+  margin-top: 44px;
+  margin-right: 72px;
+}
+.appointment__blob {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.appointment__the-curve {
+  position: absolute;
+  right: 110px;
+}
+.appointment__dots {
+  position: absolute;
+  left: -34px;
+  top: 122px;
+}
+
+.button {
+  color: #fff;
+  background-color: #F2726F;
+  border-radius: 8px;
+  display: inline-flex;
+  padding: 18px;
+  font-weight: 700;
+}
